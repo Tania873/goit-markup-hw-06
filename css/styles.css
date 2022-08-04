@@ -526,9 +526,16 @@ body {
   margin-left: 12px;
 
   display: inline-flex;
+  position: relative;
 }
+
 .subscribe-text {
   margin-right: 10px;
+}
+.subscribe-icon {
+  position: absolute;
+  top: 13px;
+  left: 148px;
 }
 
 /* Portfolio */
@@ -796,18 +803,27 @@ body {
 
 .contact-form-checkbox-desc-before {
   display: block;
-  width: 16px;
-  height: 15px;
+  width: 15px;
+  height: 14px;
   border-radius: 3px;
   border: 2px solid #000000;
   margin-right: 8px;
   cursor: pointer;
+
+  position: relative;
 }
 .contact-form-checkbox-icon {
   display: block;
   width: 16px;
   height: 15px;
   opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translate(-3px, -2px);
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-icon {
@@ -819,6 +835,7 @@ body {
 
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .contact-form-submit {
