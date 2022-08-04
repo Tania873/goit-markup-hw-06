@@ -838,6 +838,14 @@ body {
   justify-content: center;
   margin-bottom: 30px;
 }
+.user-policy-text {
+  color: var(--paragraph-text-color);
+}
+
+.user-policy-link {
+  color: var(--accent-colour);
+}
+
 .contact-form-submit {
   min-width: 200px;
   min-height: 50px;
