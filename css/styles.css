@@ -824,6 +824,8 @@ body {
   bottom: 0;
   right: 0;
   transform: translate(-3px, -2px);
+
+  transition: var(--transition-dur-and-func);
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-icon {
